@@ -33,10 +33,10 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="lQn-rb-ujS">
-                                        <rect key="frame" x="38.666666666666657" y="367.66666666666669" width="266" height="116.33333333333331"/>
+                                        <rect key="frame" x="10" y="367.66666666666669" width="323" height="116.33333333333331"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SAe-yF-lK8">
-                                                <rect key="frame" x="0.0" y="0.0" width="83" height="116.33333333333333"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="111.66666666666667" height="116.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Force" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcC-Oz-hH0">
                                                         <rect key="frame" x="0.0" y="0.0" width="52.333333333333336" height="25.333333333333332"/>
@@ -65,28 +65,28 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RjK-aF-Mo7">
-                                                <rect key="frame" x="183" y="0.0" width="83" height="116.33333333333333"/>
+                                                <rect key="frame" x="211.66666666666666" y="0.0" width="111.33333333333334" height="116.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yk-bh-Sgg">
-                                                        <rect key="frame" x="71.666666666666657" y="0.0" width="11.333333333333329" height="25.333333333333332"/>
+                                                        <rect key="frame" x="100.00000000000003" y="0.0" width="11.333333333333329" height="25.333333333333332"/>
                                                         <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="21"/>
                                                         <color key="textColor" red="0.40798734409999998" green="0.1116958277" blue="0.14751438419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1n-pX-Mmz">
-                                                        <rect key="frame" x="71.666666666666657" y="30.333333333333314" width="11.333333333333329" height="25.333333333333329"/>
+                                                        <rect key="frame" x="100.00000000000003" y="30.333333333333314" width="11.333333333333329" height="25.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="21"/>
                                                         <color key="textColor" red="0.40798734409999998" green="0.1116958277" blue="0.14751438419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRE-rZ-55b">
-                                                        <rect key="frame" x="71.666666666666657" y="60.666666666666693" width="11.333333333333329" height="25.333333333333336"/>
+                                                        <rect key="frame" x="100.00000000000003" y="60.666666666666693" width="11.333333333333329" height="25.333333333333336"/>
                                                         <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="21"/>
                                                         <color key="textColor" red="0.40798734409999998" green="0.1116958277" blue="0.14751438419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIZ-CK-jH0">
-                                                        <rect key="frame" x="69.000000000000028" y="90.999999999999943" width="14" height="25.333333333333329"/>
+                                                        <rect key="frame" x="97.333333333333343" y="90.999999999999943" width="14" height="25.333333333333329"/>
                                                         <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="21"/>
                                                         <color key="textColor" red="0.40798734409999998" green="0.1116958277" blue="0.14751438419999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -108,6 +108,10 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="lQn-rb-ujS" firstAttribute="leading" secondItem="Dzd-BL-sLc" secondAttribute="leading" constant="10" id="HCp-ZE-2pe"/>
+                                    <constraint firstAttribute="trailing" secondItem="lQn-rb-ujS" secondAttribute="trailing" constant="10" id="ggH-Td-uXl"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

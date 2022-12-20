@@ -28,14 +28,14 @@ class ViewController: UIViewController {
         animationName.text = AnimationType.allCases.randomElement()!.rawValue
         springView.animation = AnimationType.allCases.randomElement()!.rawValue
         // сила
-        force.text = Properties.getRandomForce().description
-        springView.force = Properties.getRandomForce()
+        force.text = Properties.getRandomProperties().description
+        springView.force = Properties.getRandomProperties()
         // продолжительность
-        duration.text = Properties.getRandomDuration().description
-        springView.duration = Properties.getRandomDuration()
+        duration.text = Properties.getRandomProperties().description
+        springView.duration = Properties.getRandomProperties()
         // задержка
-        delay.text = Properties.getRandomDelay().description
-        springView.delay = Properties.getRandomDelay()
+        delay.text = Properties.getRandomProperties().description
+        springView.delay = Properties.getRandomProperties()
         // анимационная кривая
         curve.text = Curve.allCases.randomElement()!.rawValue
         // старт анимации
