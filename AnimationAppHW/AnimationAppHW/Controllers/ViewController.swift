@@ -5,15 +5,15 @@
 import UIKit
 import Spring
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
-    @IBOutlet weak var animationName: UILabel!
-    @IBOutlet weak var springView: SpringView!
-    @IBOutlet weak var force: UILabel!
-    @IBOutlet weak var duration: UILabel!
-    @IBOutlet weak var delay: UILabel!
-    @IBOutlet weak var curve: UILabel!
-    @IBOutlet weak var enterBtn: UIButton!
+    @IBOutlet private weak var animationName: UILabel!
+    @IBOutlet private weak var springView: SpringView!
+    @IBOutlet private weak var force: UILabel!
+    @IBOutlet private weak var duration: UILabel!
+    @IBOutlet private weak var delay: UILabel!
+    @IBOutlet private weak var curve: UILabel!
+    @IBOutlet private weak var enterBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

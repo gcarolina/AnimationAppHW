@@ -4,16 +4,10 @@
 
 import Foundation
 
-class Properties {
+struct Properties {
     var force: CGFloat
     var duration: CGFloat
     var delay: CGFloat
-    
-    init(force: CGFloat, duration: CGFloat, delay: CGFloat) {
-        self.force = force
-        self.duration = duration
-        self.delay = delay
-    }
 
     static func getRandomProperties() -> Double {
         let randomForce = CGFloat.random(in: 0...3)
